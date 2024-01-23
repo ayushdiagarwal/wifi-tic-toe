@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: #abdad9; */
+
+}
+
+h1 {
+    color: black;
+    font-size: 3em;
+    padding-bottom: 0.8em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* By default this setting is set to row */
+    /* ensures that the container takes up at least the full viewport height, allowing the vertical centering to work properly. */
+    min-height: 100vh; 
+    background-color: #abdad9;
+}
+ 
+.grid-slot {
+    background-color: #3834c3;
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    font-size: 5em;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #3498db;
+}
+
+/* Making the grid  */
+.square {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding-bottom: 2em;
+
+}
+
+.statusText{
+    font-size: 3.5em;
+}
+
+
+.restartBtn{
+    font-size: 1em;
+    position: relative;
+    appearance: none;
+    padding: 1em;
+    margin: 2em;
+    border: none;
+    background-color:#f0ad28;
+}
+.restartBtn:hover {
+    background-color:#ffaa00;
+
+}
+
+.grid-slot:hover{
+    background-color: rgb(0, 89, 255);
+}

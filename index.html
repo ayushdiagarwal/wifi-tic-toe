@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3 id="idm"></h3>
+    <div class="container">
+      <h1>Tic-Tac-Toe</h1>
+      <div class="square">
+        <div class="grid-slot" index="1"></div>
+        <div class="grid-slot" index="2"></div>
+        <div class="grid-slot" index="3"></div>
+        <div class="grid-slot" index="4"></div>
+        <div class="grid-slot" index="5"></div>
+        <div class="grid-slot" index="6"></div>
+        <div class="grid-slot" index="7"></div>
+        <div class="grid-slot" index="8"></div>
+        <div class="grid-slot" index="9"></div>
+      </div>
+      <div class="statusText"></div>
+      <button class="restartBtn">RESTART</button>
+    </div>
+    <script src="app.js"></script>
+    <!-- need to add the socket io file  -->
+    <script src="/socket.io/socket.io.js"></script>
+  </body>
+</html>
