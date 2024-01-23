@@ -1,0 +1,33 @@
+Design of the app
+(Small Scale)
+
+
+Name: " "
+
+maybe
+show all the available names on the network
+"Ayush" "Parth" "Someone"
+
+user can click on the one they want to play with
+
+can send a request to accept -> "Player " " wants to play with you"
+
+Since this is a two person game
+creating room doesn't make sense?
+maybe joining two people makes it a room? The user doesn't need to know about the room
+
+can make the room with the user name
+
+then show all the rooms
+
+then other user can join one.
+
+yeah that looks about alright
+
+will implement this later
+for now, lets just make the tic tac toe on the server side
+makes sense
+
+
+single user shouldn't make two moves simultaneously
+there is once method for this in socket
